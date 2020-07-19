@@ -1,0 +1,566 @@
+header {
+    background-color:black;
+}
+
+nav-header-1 {
+    justify-content: right;
+}
+nav-header-2  {
+    margin-top: -20px;
+    display: flex;
+	justify-content: space-between;
+}
+
+.menu-1 {
+    margin-right: 20px;
+    text-align: right;
+}
+
+
+.nav-menu-1 , .nav-menu-2{
+    display: inline-flex;
+
+}
+
+.nav-menu-1 li {
+    font-size: 12px;
+}
+
+
+.nav-menu-1 li, .nav-menu-2 li{
+    text-transform: uppercase; /*dùng để in hoa*/
+	padding-right: 15px;
+
+}
+
+.nav-menu-1 li a , .nav-menu-2 li a{
+    text-decoration: none; /*dùng để xóa dấu gạch chân của liên kết*/
+    color: white;
+	
+}
+
+.nav-menu-2 {
+        margin-top: 25px;
+}
+
+.trial {
+    border:2px solid coral;
+    background-color: coral;
+    border-radius: 40px;
+    text-align: center;
+    padding-left: 7px;
+}
+
+.logo {
+    background-image: url(./images/logo.png);
+    background-size: cover;
+    margin-left: 10px;
+    text-align: left;
+    width: 280px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.header-3-text {
+    color:white;
+    height: 420px;
+    background-color: black;
+}
+.header-3 {
+    width: 70%;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.header-text h2 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.header-text span {
+    font-size: 16px;
+}
+
+.header-3-sign-up-box {
+    width: 320px;
+    height: 250px;
+    background-color: white;
+    color: white;
+    text-align: center;
+    margin-bottom: -30px;
+    border-bottom: 2px solid red;
+    margin-left: 50px;
+}
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.sign-up {
+    text-align: center;
+    color: black;
+}
+
+.header-3-sign-up-box input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 40px;
+    color: black;
+}
+
+.form-sign-up {
+    text-align: center;
+}
+
+.header-3-sign-up-box a {
+    text-decoration: none;
+}
+
+.submit {
+    width: 150px;
+    border:2px solid coral;
+    background-color: coral;
+    border-radius: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.submit a {
+    color: white;
+}
+/**********START SECTION WHAT WE DO****************/
+.what-we-do {
+    padding-top: 30px;
+}
+
+.what-we-do h2{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+}
+
+.what-we-do-info {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.what-we-do-block-1, .what-we-do-block-2, .what-we-do-block-3{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.icon1 {
+    background-image: url("./images/icon1.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon2 {
+    background-image: url("./images/icon2.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon3 {
+    background-image: url("./images/icon3.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**********END SECTION WHAT WE DO****************/
+/**********START SECTION HOW IT WORKS****************/
+.how-it-works {
+    padding-top: 30px;
+    background-color:  whitesmoke;
+}
+
+.how-it-works h2{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+}
+
+.how-it-works-content {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-image: url("./images/video.jpg");
+    background-size: cover;
+    height: 345px;
+    width: 487px;
+}
+
+.content-block-1, .content-block-2 {
+    padding-top: 50px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+
+.content-block-2 {
+    display: block;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.row-1 {
+    display: inline-flex;
+}
+
+.row-1-block-1, .row-1-block-2, .row-1-block-3 {
+    padding-top: 40px;
+    width: 140px;
+    height: 200px;
+    text-align: center;
+}
+
+.row-1-icon1 {
+    background-image: url("./images/icon6.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-1-icon2 {
+    background-image: url("./images/icon5.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-1-icon3 {
+    background-image: url("./images/icon4.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-2 {
+    width: 180px;
+    border:2px solid coral;
+    background-color: coral;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    height: 40px;
+    padding-left: 12px;
+    padding-top: 18px;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+	box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+}
+
+.row-2 a {
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/**********END SECTION HOW IT WORKS****************/
+/**********START SECTION OUR SERVICES****************/
+.our-services h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.our-services-content1 {
+    display: inline-flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.content1-block1, .content1-block2, .content1-block3, .content1-block4, .content1-block5 {
+    width: 160px;
+    border:2px solid coral;
+    background-color: coral;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 100px;
+    padding-top: 60px;
+    margin-top: 40px;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+    box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+    clip-path: circle(50%);
+}
+
+.content1-block1 a, .content1-block2 a, .content1-block3 a, .content1-block4 a, .content1-block5 a, .our-services-content2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.our-services-content2 {
+    width: 180px;
+    border:2px solid coral;
+    background-color: coral;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    padding-left: 12px;
+    padding-top: 18px;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+    box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+    margin-top: 70px;
+}
+/**********END SECTION OUR SERVICES****************/
+/**********START SECTION SAY ABOUT US****************/
+.say-about-us {
+    background-color: whitesmoke;
+    height: 1380px;
+}
+
+.say-about-us h2 {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.say-about-us-info , .daily-watch-info{
+    width: 100%;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.say-about-us-block-1, .say-about-us-block-2, .say-about-us-block-3 {
+    width: 400px;
+    height: 410px;
+    text-align: center;
+    background-color: white;
+    margin-left: 30px;
+    line-height: 5mm;
+    border-bottom: 2px solid coral;
+}
+
+.say-about-us-image1 {
+    background-image: url("./images/image1.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.say-about-us-image2 {
+    background-image: url("./images/image2.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.say-about-us-image3 {
+    background-image: url("./images/image3.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.text-color {
+    color: coral;
+}
+
+.icon-color {
+    background-image: url("./images/icon7.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 55px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+/**********END SECTION SAY ABOUT US****************/
+/**********START SECTION DAILY WATCH****************/
+
+.daily-watch-block-1, .daily-watch-block-2, .daily-watch-block-3 {
+    width: 360px;
+    height: 410px;
+    background-color: white;
+    margin-left: 30px;
+    border-bottom: 2px solid coral;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 7mm;
+}
+
+.daily-form  {
+    text-align: center;
+}
+
+
+.daily-form input[type="text"]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 40px;
+    color: black;
+    width: 250px;
+}
+
+.btn-check {
+    width: 170px;
+    border:2px solid coral;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+    box-shadow: -3px 3px 23px 0px rgba(224, 86, 86, 0.75);
+    margin-top: 50px;
+}
+
+.btn-check a {
+    color: white;
+    text-decoration: none;
+}
+
+.daily-watch-block-3 a {
+    text-decoration: none;
+    color: blue;
+}
+/**********END SECTION DAILY WATCH****************/
+/**********START ENDING PAGE****************/
+.ending {
+    background-color: black;
+}
+
+.ending-page-block {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: white;
+    height: 500px;
+}
+
+.ending-page-block i {
+    color: yellow;
+}
+
+.ending-page-block a {
+    text-decoration: none;
+    color: white;
+}
+
+.ending-block-1 {
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    margin-left: 60px;
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 7mm;
+}
+
+.ending-block-2, .ending-block-3, .ending-block-4 {
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 7mm;
+}
+
+.ending-block-5 {
+    width: 500px;
+    height: 450px;
+    background-color: black;
+    border-bottom: 2px solid white;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.ending-block-1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon {
+    font-size: 50px;
+}
+
+.social-icon i, .ending-block-5 i{
+    color:white;
+    letter-spacing: 3px;
+}
+
+.map {
+    background-image: url("./images/map.jpg");
+    background-size: cover;
+    width: 350px;
+    height: 205px;
+}
+
+.ending-page-footer {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
